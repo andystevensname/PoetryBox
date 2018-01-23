@@ -1,0 +1,69 @@
+@font-face {
+    font-family: Oswald;
+    src: url("fonts/Oswald-Regular.ttf");
+}
+
+body {
+	width:512px;
+	height:100%;
+	background-color: white;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-size: 100%;
+	padding: 1rem 0;
+	margin: 0;
+	overflow-x:hidden;
+}
+.logo {
+	display:block;
+	max-width:100%;
+	margin:0 auto 3em;
+}
+#title {
+	width:100%;
+	display:block;
+	font-size: 3em;
+	text-align: center;
+	font-family: "Oswald";
+}
+#author {
+	width:100%;
+	display:block;
+	font-size:1.5em;
+	text-align:center;
+	text-transform: uppercase;
+}
+#poem {
+	display: table;
+	margin: 2em auto;
+	max-width:100%;
+	padding-bottom:2em;
+	border-bottom: 2px solid black;
+}
+.poem {
+	font-family: Georgia, serif;
+	font-size:1.25em;
+}
+.epigraph {
+	margin: 0 auto 1em auto;
+	display:table;
+}
+#credit {
+	width: 100%;
+	display: block;
+}
+.qrcode {
+	display:block;
+	width: 100%;
+	float: left;
+	white-space:pre-wrap;
+	font-size:1.25em;
+}
+.qrcode img {
+	float:left;
+	padding: 0 .5em 0 0;
+}
+.qrcode:last-child img {
+	float: right;
+	padding: 0 0 0 .5em;
+}
