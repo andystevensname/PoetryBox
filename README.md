@@ -3,9 +3,9 @@
 Poetry Box prints poems on demand. Running on a Raspberry Pi, Poetry Box scrapes poems from the Poetry Foundation website with a Python script and stores them in MongoDB. When the user pushes the glowing white button, Poetry Box prints these poems with a Epson thermal receipt printer.
 
 ## Required Hardware
-Raspberry Pi 2 (or 3)
-A Button with LED
-Epson Thermal Reciept Printer (such as the TM-T88V)
+- Raspberry Pi 2 (or 3)
+- A Button with LED
+- Epson Thermal Reciept Printer (such as the TM-T88V)
 
 ## Required Software
 
