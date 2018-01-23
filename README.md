@@ -1,6 +1,8 @@
 # Poetry Box
 
-Poetry Box prints poems on demand. Running on a Raspberry Pi, Poetry Box scrapes poems from the Poetry Foundation website with a Python script and stores them in MongoDB. When the user pushes the glowing white button, Poetry Box prints these poems with a Epson thermal receipt printer.
+![Poetry Box](https://github.com/andystevensname/PoetryBox/raw/master/images/IMAG0072.jpg)
+
+Poetry Box prints a random poem from the Poetry Foundation. Running on a Raspberry Pi, Poetry Box scrapes poems from the Poetry Foundation website with a Python script and stores them in MongoDB. When the user pushes the glowing white button, Poetry Box prints these poems with a Epson thermal receipt printer.
 
 ## Required Hardware
 - Raspberry Pi 2 (or 3)
@@ -25,6 +27,8 @@ Poetry Box prints poems on demand. Running on a Raspberry Pi, Poetry Box scrapes
 - Edit button.py to reflect the pins you have chosen for your button and LED.
 - Add button.py to your Pi's startup processes
 - Run button.py
+
+![Example](https://github.com/andystevensname/PoetryBox/raw/master/images/IMAG0068.jpg)
 
 ## Further Thoughts
 The main problem with the current setup is that MongoDB creates a lock file if the Raspberry Pi is not shutdown properly. In general this means if the Poetry Box loses power (via being unplugged) the device must be disassembled and the lock file manually removed. As of right now you can power down Poetry Box safely by holding down the button for a few seconds. However future iterations will most likely employ a different database.

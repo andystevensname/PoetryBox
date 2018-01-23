@@ -5,7 +5,6 @@
 import pymongo, subprocess, pyqrcode
 from pymongo import MongoClient
 from random import randint
-from escpos import *
 from PIL import Image
 
 client = MongoClient()
