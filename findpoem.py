@@ -17,10 +17,10 @@ random = randint(1, count)
 
 poem = poems.find_one({"number": random})
 
-file = open('index.html', 'w')
+file = open('poem.html', 'w')
 file.truncate()
 
-file.write("<!DOCTYPE html><head><link href='index.css' type='text/css' rel='stylesheet' /></head><body><img src='magazine-heading.png' class='logo'>")
+file.write("<!DOCTYPE html><head><link href='css/index.css' type='text/css' rel='stylesheet' /></head><body><img src='images/magazine-heading.png' class='logo'>")
 
 print(poem["number"])
 
